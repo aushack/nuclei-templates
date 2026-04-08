@@ -22,7 +22,6 @@ http:
         dsl:
           - 'status_code == 200'
           - 'contains(body, "{\"version\":")'
-          - 'contains(content_type, "text/plain")'
         condition: and
 
     extractors:
